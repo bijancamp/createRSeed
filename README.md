@@ -21,8 +21,8 @@ regression coefficients
 determination  
 `tol`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tolerance for finding a 4x4 
-correlation matrix that has a coefficient of  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;determination that is within 
+correlation matrix that has a coefficient of determination  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that is within 
 |`tol`| units from the provided R2.
 
 #### Returns
