@@ -12,16 +12,20 @@ predetermined R2.
 createRSeed(Beta = c(.1, .2, .3, .4), R2 = 0.3, tol = 0.5)
 
 ### Arguments
-**Beta**  
+`**Beta**`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 x 1 vector of standardized 
 regression coefficients  
-**R2**  
+`**R2**`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multiple coefficient of 
 determination  
-**tol**  
+`**tol**`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a 4x4 seed matrix for 
 use with fungibleR with a predetermined 4x1 Beta  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vector of tolerance for finding 
 a 4x4 correlation matrix that has a coefficient of  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;determination that is within 
-|tol| units from the provided R2
+|tol| units from the provided R2.
+
+### Returns
+Returns `closestR`, an R matrix that has the closest coefficient of 
+determination to the provided R2.
