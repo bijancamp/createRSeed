@@ -31,4 +31,5 @@ determination to the provided R2.
 
 #### References
 Waller, N.G. (2013, under review). Fungible Correlation Matrices: A New Tool 
-for Evaluating Penalized Regression Models.
+for Evaluating  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Penalized Regression Models.
