@@ -20,10 +20,8 @@ regression coefficients
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multiple coefficient of 
 determination  
 `tol`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a 4x4 seed matrix for 
-use with `fungibleR` with the predetermined 4x1 Beta  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vector of tolerance for finding 
-a 4x4 correlation matrix that has a coefficient of  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tolerance for finding a 4x4 
+correlation matrix that has a coefficient of  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;determination that is within 
 |`tol`| units from the provided R2.
 
