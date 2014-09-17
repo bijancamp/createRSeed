@@ -1,27 +1,27 @@
-  #---------------------------------------------------------------#
-  # createRSeed
-  # Bijan Camp
-  # February 27, 2014
-  #
-  # Description:       : Creates a 4x4 seed matrix for use with
-  #                      fungibleR with a predetermined 4x1 Beta
-  #                      vector of standardized regression
-  #                      coefficients and a multiple R2 close to a
-  #                      predetermined R2.
-  #
-  # Arguments:
-  #       Beta         : 4 x 1 vector of standardized regression 
-  #                      coefficients
-  #       R2           : multiple coefficient of determination
-  #       tol          : tolerance for finding a 4x4 correlation
-  #                      matrix that has a coefficient of
-  #                      determination that is within |tol| units 
-  #                      from the provided R2
-  #
-  # Returns:
-  #       closestR     : R matrix that has the closest coefficient
-  #                      of determination to the provided R2
-  #---------------------------------------------------------------# 
+#---------------------------------------------------------------#
+# createRSeed
+# Bijan Camp
+# February 27, 2014
+#
+# Description:       : Creates a 4x4 seed matrix for use with
+#                      fungibleR with a predetermined 4x1 Beta
+#                      vector of standardized regression
+#                      coefficients and a multiple R2 close to a
+#                      predetermined R2.
+#
+# Arguments:
+#       Beta         : 4 x 1 vector of standardized regression 
+#                      coefficients
+#       R2           : multiple coefficient of determination
+#       tol          : tolerance for finding a 4x4 correlation
+#                      matrix that has a coefficient of
+#                      determination that is within |tol| units 
+#                      from the provided R2
+#
+# Returns:
+#       closestR     : R matrix that has the closest coefficient
+#                      of determination to the provided R2
+#---------------------------------------------------------------# 
 
 ## Needed for lowerTriangle function
 library(gdata)
