@@ -23,7 +23,7 @@ determination
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tolerance for finding a 4x4 
 correlation matrix that has a coefficient of determination  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that is within 
-|`tol`| units from the provided R2.
+|`tol`| units from the provided R2
 
 #### Returns
 Returns `closestR`, an R matrix that has the closest coefficient of 
