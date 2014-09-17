@@ -24,7 +24,7 @@ use with `fungibleR` with the predetermined 4x1 Beta
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vector of tolerance for finding 
 a 4x4 correlation matrix that has a coefficient of  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;determination that is within 
-|tol| units from the provided R2.
+|`tol`| units from the provided R2.
 
 #### Returns
 Returns `closestR`, an R matrix that has the closest coefficient of 
