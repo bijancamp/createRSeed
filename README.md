@@ -16,9 +16,9 @@ createRSeed(Beta = c(.1, .2, .3, .4), R2 = 0.3, tol = 0.5)
 
 ### ARGUMENTS
 
-**Beta**
-        4 x 1 vector of standardized regression
-**R2**
-        multiple coefficient of determination
-**tol**
-        tolerance for finding a 4x4 correlation matrix that has a coefficient of determination that is within |tol| units from the provided R2
+**Beta**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 x 1 vector of standardized regression  
+**R2**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multiple coefficient of determination  
+**tol**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tolerance for finding a 4x4 correlation matrix that has a coefficient of determination that is within |tol| units from the provided R2
