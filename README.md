@@ -25,7 +25,7 @@ correlation matrix that has a coefficient of determination
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that is within 
 |`tol`| units from the provided R2
 
-#### Returns
+#### Value
 Returns `closestR`, an R matrix that has the closest coefficient of 
 determination to the provided R2.
 
