@@ -10,7 +10,7 @@
 #                      predetermined R2.
 #
 # Arguments:
-#       Beta         : 4 x 1 vector of standardized regression 
+#       Beta         : 4x1 vector of standardized regression 
 #                      coefficients
 #       R2           : multiple coefficient of determination
 #       tol          : tolerance for finding a 4x4 correlation
