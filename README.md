@@ -1,8 +1,8 @@
 createRSeed
 ===========
 
-R program that creates a 4x4 seed matrix for use with `fungibleR` (Waller, 
-2013, under review)
+Creates a 4x4 seed matrix for use with `fungibleR` (Waller, 
+2013, under review).
 
 #### Description
 Creates a 4x4 seed matrix for use with `fungibleR` with a predetermined 
