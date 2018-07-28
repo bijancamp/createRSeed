@@ -10,15 +10,6 @@ Creates a 4 × 4 seed matrix for use with `fungibleR` with a predetermined 4 × 
 `createRSeed(Beta = c(.1, .2, .3, .4), R2 = 0.3, tol = 0.5)`
 
 #### Arguments
-`Beta`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 × 1 vector of standardized regression coefficients  
-`R2`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multiple coefficient of determination  
-`tol`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tolerance for finding a 4 × 4 correlation matrix that has a coefficient of determination  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that is within 
-|`tol`| units from the provided 𝑅²
-
 | Argument | Description                                                                       |
 | -------- | --------------------------------------------------------------------------------- |
 | `Beta`   | 4 × 1 vector of standardized regression coefficients.                             |
