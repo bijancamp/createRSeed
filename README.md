@@ -1,7 +1,7 @@
 createRSeed
 ===========
 
-Creates a 4 × 4 seed matrix for use with `fungibleR` (Waller, 2013, under review).
+Create a 4 × 4 seed matrix for use with `fungibleR` (Waller, 2013, under review).
 
 #### Description
 Creates a 4 × 4 seed matrix for use with `fungibleR` with a predetermined 4 × 1 Beta vector of standardized regression coefficients and a multiple coefficient of determination 𝑅² that is close to a predetermined 𝑅².
